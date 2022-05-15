@@ -1,0 +1,14 @@
+<%-include("header")-%> 
+    
+<%-include("image") -%> 
+
+      <div class="card-img-overlay">
+        <h1 class="card-title text-center text-dark"><%- city %> </h1>
+        <p class="card-text text-dark" style="position: absolute;left:15%;"><img src ="http://openweathermap.org/img/wn/<%-D_weather.weather[0].icon%>@2x.png?h=150" height="200px"><span style="font-size:2rem;"><%- D_weather.main.temp%>°C</span></p> 
+        <p class="card-text text-dark" style="position: absolute;right:15%;font-size:1.2rem;padding-bottom: 10px; "> fells like   <%-D_weather.main.feels_like%>°C <br> maxTemp    <%-D_weather.main.temp_max%>°C<br> minTemp    <%-D_weather.main.temp_min%>°C <br>pressure    <%-D_weather.main.pressure%> <br>humidity    <%-D_weather.main.humidity%> </p> 
+
+      </div>
+    </div>
+    </div>
+</body>
+</html>

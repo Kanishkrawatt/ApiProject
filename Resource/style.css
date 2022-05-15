@@ -1,0 +1,9 @@
+input[type="text"]{
+    width: 600px;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/clouds-blue-sky-sunny-day-nature-scenery-with-good-weather-looking-up-shot-long-wide-screen_34048-907.jpg?w=1500);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
